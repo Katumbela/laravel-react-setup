@@ -1,4 +1,4 @@
-# laravel-react-setup
+# laravel-react-setup + tailwindcss + Docker IMAGES AND CONTAINERS
 
 O repositório "laravel-react-setup" oferece um ambiente pré-configurado para iniciar projetos usando Laravel como backend e React como frontend. Ele combina a poderosa estrutura do Laravel para o desenvolvimento de aplicativos web do lado do servidor com a flexibilidade e a eficiência do React para a criação de interfaces de usuário dinâmicas e responsivas.
 
@@ -9,9 +9,9 @@ Claro! Aqui está o README formatado para o GitHub:
 
 ---
 
-# Laravel React Setup
+# Laravel React  + tailwindcss Setup + Docker IMAGES AND CONTAINERS
 
-Este repositório fornece um ambiente pré-configurado para iniciar projetos usando Laravel como backend e React como frontend. Combina a poderosa estrutura do Laravel para o desenvolvimento de aplicativos web do lado do servidor com a flexibilidade e a eficiência do React para a criação de interfaces de usuário dinâmicas e responsivas.
+Este repositório fornece um ambiente pré-configurado para iniciar projetos usando Laravel como backend e React como frontend junto com tailwind já configurado. Combina a poderosa estrutura do Laravel para o desenvolvimento de aplicativos web do lado do servidor com a flexibilidade e a eficiência do React para a criação de interfaces de usuário dinâmicas e responsivas.
 
 ## Como Usar
 
@@ -26,20 +26,20 @@ git clone https://github.com/Katumbela/laravel-react-setup.git
 - No diretório raiz do projeto Laravel:
 
   ```
-  cd laravel-react-setup/backend
+  cd laravel-react-setup/app
   composer install
   ```
 
-- No diretório raiz do projeto React:
+- No diretório raiz do projeto App:
 
   ```
-  cd laravel-react-setup/frontend
+  cd laravel-react-setup/app
   npm install
   ```
 
 ### 3. Configurar o Banco de Dados
 
-- Configure as variáveis de ambiente necessárias para o banco de dados no arquivo `.env` no diretório `backend`.
+- Configure as variáveis de ambiente necessárias para o banco de dados no arquivo `.env` no diretório `app`.
 - Execute as migrações do Laravel para criar as tabelas do banco de dados:
 
   ```
@@ -51,14 +51,14 @@ git clone https://github.com/Katumbela/laravel-react-setup.git
 - Inicie o servidor Laravel:
 
   ```
-  cd laravel-react-setup/backend
+  cd laravel-react-setup/app
   php artisan serve
   ```
 
 - Inicie o servidor de desenvolvimento do React:
 
   ```
-  cd laravel-react-setup/frontend
+  cd laravel-react-setup/app
   npm start
   ```
 
@@ -70,4 +70,6 @@ git clone https://github.com/Katumbela/laravel-react-setup.git
 
 ---
 
-Sinta-se à vontade para personalizar o README conforme necessário!
+Sinta-se à vontade para personalizar o a configuração conforme necessário!
+THANKS !!
+### By Katumbela.
