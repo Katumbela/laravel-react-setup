@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function AboutPage() {
     return (
@@ -15,10 +16,10 @@ export function AboutPage() {
                     </h1>
                     <br />
                     <h1 className="text-2xl">About page component</h1>
-                    <a href="/" className="text-2xl underline text-cyan-600">
+                    <Link to="/" className="text-2xl underline text-cyan-600">
                         {" "}
                         Home Page
-                    </a>
+                    </Link>
                 </center>
             </div>
         </>
