@@ -4,8 +4,8 @@ O repositório "laravel-react-setup" oferece um ambiente pré-configurado para i
 
 Este ambiente pré-configurado inclui um projeto Laravel com todas as dependências necessárias instaladas e um projeto React configurado e integrado ao Laravel. Além disso, o repositório também inclui instruções detalhadas sobre como configurar e executar o ambiente localmente.
 
+ <img width="768" alt="image" src="https://github.com/Katumbela/laravel-react-setup/assets/88532376/1f5afe59-bb2e-444d-9a14-c5abd4179693">
 
-Claro! Aqui está o README formatado para o GitHub:
 
 ---
 
