@@ -1,5 +1,5 @@
 # laravel-react-setup + tailwindcss + Docker IMAGES AND CONTAINERS
-## 1º Passo: Vá para Branch Master 
+## 1º Passo: Está na branch certa hahah
 
 O repositório "laravel-react-setup" oferece um ambiente pré-configurado para iniciar projetos usando Laravel como backend e React como frontend. Ele combina a poderosa estrutura do Laravel para o desenvolvimento de aplicativos web do lado do servidor com a flexibilidade e a eficiência do React para a criação de interfaces de usuário dinâmicas e responsivas.
 
@@ -19,7 +19,7 @@ Este repositório fornece um ambiente pré-configurado para iniciar projetos usa
 ### 1. Clonar o Repositório
 
 ```
-git clone https://github.com/Katumbela/laravel-react-setup.git
+git clone -b master https://github.com/Katumbela/laravel-react-setup.git
 ```
 
 ### 2. Instalar Dependências
@@ -27,14 +27,14 @@ git clone https://github.com/Katumbela/laravel-react-setup.git
 - No diretório raiz do projeto Laravel:
 
   ```
-  cd laravel-react-setup/app
+  cd laravel-react-setup/laravel-react-app
   composer install
   ```
 
 - No diretório raiz do projeto App:
 
   ```
-  cd laravel-react-setup/app
+  cd laravel-react-setup/laravel-react-app
   npm install
   ```
 
@@ -52,14 +52,14 @@ git clone https://github.com/Katumbela/laravel-react-setup.git
 - Inicie o servidor Laravel:
 
   ```
-  cd laravel-react-setup/app
+  cd laravel-react-setup/laravel-react-app
   php artisan serve
   ```
 
 - Inicie o servidor de desenvolvimento do React:
 
   ```
-  cd laravel-react-setup/app
+  cd laravel-react-setup/laravel-react-app
   npm start
   ```
 
