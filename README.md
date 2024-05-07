@@ -1,5 +1,5 @@
 # laravel-react-setup + tailwindcss + Docker IMAGES AND CONTAINERS
-##!º Passo: Vá para Branch Master 
+##1º Passo: Vá para Branch Master 
 
 O repositório "laravel-react-setup" oferece um ambiente pré-configurado para iniciar projetos usando Laravel como backend e React como frontend. Ele combina a poderosa estrutura do Laravel para o desenvolvimento de aplicativos web do lado do servidor com a flexibilidade e a eficiência do React para a criação de interfaces de usuário dinâmicas e responsivas.
 
